@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charadium</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="/assets/style.css">
+  </head>
+  <body class="bg-light">
+    <main class="app-shell min-vh-100 p-3 p-md-4">
+      <header class="app-header d-flex align-items-center justify-content-between mb-4">
+        <div class="app-brand">
+          <img src="/assets/charadium-logo.svg" class="app-brand-logo" alt="Charadium logo">
+          <h1 class="app-title mb-0">CHARADIUM</h1>
+        </div>
+        <div id="header-actions" class="header-actions">
+          <button id="settings-toggle" class="icon-button" type="button" aria-label="Open settings" aria-expanded="false" aria-controls="settings-modal">
+            <svg viewBox="0 0 24 24" class="settings-icon" aria-hidden="true">
+              <path d="M19.14 12.94c.04-.31.06-.63.06-.94s-.02-.63-.06-.94l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.6-.22l-2.39.96a7.24 7.24 0 0 0-1.63-.94l-.36-2.54a.5.5 0 0 0-.49-.42h-3.84a.5.5 0 0 0-.49.42l-.36 2.54c-.58.23-1.12.54-1.63.94l-2.39-.96a.5.5 0 0 0-.6.22L2.71 8.84a.5.5 0 0 0 .12.64l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58a.5.5 0 0 0-.12.64l1.92 3.32a.5.5 0 0 0 .6.22l2.39-.96c.5.39 1.05.71 1.63.94l.36 2.54a.5.5 0 0 0 .49.42h3.84a.5.5 0 0 0 .49-.42l.36-2.54c.58-.23 1.12-.54 1.63-.94l2.39.96a.5.5 0 0 0 .6-.22l1.92-3.32a.5.5 0 0 0-.12-.64zM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7z"/>
+            </svg>
+          </button>
+          <button class="btn-new" id="btn-new">New Game</button>
+        </div>
+      </header>
+
+      <div class="card-shell d-flex align-items-center justify-content-center">
+        <div class="card shadow-sm text-center w-100" style="max-width: 340px;">
+          <img src="/assets/charadium-logo.svg" class="card-img-top mx-auto pt-4 logo-image" alt="Charadium logo">
+          <div class="card-body">
+            <h4 id="charade-title" class="card-title mb-1">Loading ...</h4>
+            <p id="charade-info" class="card-text text-muted mb-0">Loading ...</p>
+            <div class="d-flex justify-content-between align-items-center mt-4">
+              <button id="previous-charade" class="btn btn-outline-primary charade-nav" type="button" aria-label="Previous charade">
+                &larr;
+              </button>
+              <span id="charade-position" class="text-muted small">0 / 0</span>
+              <button id="next-charade" class="btn btn-outline-primary charade-nav" type="button" aria-label="Next charade">
+                &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="settings-modal" class="settings-modal" hidden>
+      <div id="settings-backdrop" class="settings-backdrop"></div>
+      <section class="settings-panel" aria-labelledby="settings-title">
+        <div class="settings-panel-header">
+          <div>
+            <h2 id="settings-title" class="settings-title">Game Settings</h2>
+            <p class="settings-subtitle">Choose categories, difficulty and question count.</p>
+          </div>
+          <button id="settings-close" class="icon-button" type="button" aria-label="Close settings">
+            <span class="settings-close-mark">&times;</span>
+          </button>
+        </div>
+        <form id="settings-form" class="settings-form">
+          <fieldset class="settings-fieldset">
+            <legend class="settings-legend">Categories</legend>
+            <div id="settings-categories" class="settings-grid"></div>
+          </fieldset>
+
+          <fieldset class="settings-fieldset">
+            <legend class="settings-legend">Difficulty</legend>
+            <div id="settings-difficulties" class="settings-grid"></div>
+          </fieldset>
+
+          <label class="settings-label" for="question-count">Number of questions</label>
+          <input id="question-count" name="question-count" class="settings-input" type="number" min="1" max="20" value="8">
+
+          <div class="settings-actions">
+            <button id="settings-cancel" class="btn btn-outline-secondary" type="button">Cancel</button>
+            <button class="btn btn-primary" type="submit">Apply</button>
+          </div>
+        </form>
+      </section>
+    </div>
+    <script>
+      let charades = [];
+      let currentIndex = 0;
+      let settings = {
+        categories: ["books", "movies", "plays", "places"],
+        difficulties: ["kid", "teen", "adult"],
+        questionCount: 8
+      };
+
+      const availableCategories = ["books", "movies", "plays", "places"];
+      const availableDifficulties = ["kid", "teen", "adult"];
+
+      function renderCharade() {
+        if (charades.length === 0) {
+          document.getElementById("charade-title").textContent = "No charades found";
+          document.getElementById("charade-info").textContent = "Try broadening your settings.";
+          document.getElementById("charade-position").textContent = "0 / 0";
+          return;
+        }
+
+        const charade = charades[currentIndex];
+        document.getElementById("charade-title").textContent = charade.title;
+        document.getElementById("charade-info").textContent = charade.info;
+        document.getElementById("charade-position").textContent = `${currentIndex + 1} / ${charades.length}`;
+      }
+
+      function createCheckboxOption(name, value, label, checked) {
+        const wrapper = document.createElement("label");
+        wrapper.className = "settings-option";
+
+        const input = document.createElement("input");
+        input.type = "checkbox";
+        input.name = name;
+        input.value = value;
+        input.checked = checked;
+
+        const text = document.createElement("span");
+        text.textContent = label;
+
+        wrapper.appendChild(input);
+        wrapper.appendChild(text);
+        return wrapper;
+      }
+
+      function createRadioOption(name, value, label, checked) {
+        const wrapper = document.createElement("label");
+        wrapper.className = "settings-option";
+
+        const input = document.createElement("input");
+        input.type = "radio";
+        input.name = name;
+        input.value = value;
+        input.checked = checked;
+
+        const text = document.createElement("span");
+        text.textContent = label;
+
+        wrapper.appendChild(input);
+        wrapper.appendChild(text);
+        return wrapper;
+      }
+
+      function populateSettingsForm() {
+        const categoriesContainer = document.getElementById("settings-categories");
+        const difficultiesContainer = document.getElementById("settings-difficulties");
+
+        categoriesContainer.replaceChildren();
+        difficultiesContainer.replaceChildren();
+
+        availableCategories.forEach((category) => {
+          categoriesContainer.appendChild(
+            createCheckboxOption(
+              "categories",
+              category,
+              category.charAt(0).toUpperCase() + category.slice(1),
+              settings.categories.includes(category)
+            )
+          );
+        });
+
+        difficultiesContainer.appendChild(
+          createRadioOption(
+            "difficulty",
+            "all",
+            "All difficulties",
+            settings.difficulties.length === availableDifficulties.length
+          )
+        );
+
+        availableDifficulties.forEach((difficulty) => {
+          difficultiesContainer.appendChild(
+            createRadioOption(
+              "difficulty",
+              difficulty,
+              difficulty.charAt(0).toUpperCase() + difficulty.slice(1),
+              settings.difficulties.length === 1 && settings.difficulties[0] === difficulty
+            )
+          );
+        });
+
+        document.getElementById("question-count").value = settings.questionCount;
+      }
+
+      function openSettings() {
+        populateSettingsForm();
+        document.getElementById("settings-modal").hidden = false;
+        document.getElementById("settings-toggle").setAttribute("aria-expanded", "true");
+      }
+
+      function closeSettings() {
+        document.getElementById("settings-modal").hidden = true;
+        document.getElementById("settings-toggle").setAttribute("aria-expanded", "false");
+      }
+
+      async function fetchCharades() {
+        try {
+          const params = new URLSearchParams();
+
+          settings.categories.forEach((category) => {
+            params.append("categories", category);
+          });
+
+          settings.difficulties.forEach((difficulty) => {
+            params.append("difficulties", difficulty);
+          });
+
+          const response = await fetch(`/charades/${settings.questionCount}?${params.toString()}`);
+
+          if (!response.ok) {
+            throw new Error(`Request failed with status ${response.status}`);
+          }
+
+          charades = await response.json();
+          currentIndex = 0;
+          console.log("Charade response:", charades);
+          renderCharade();
+
+        } catch (error) {
+          console.error("Failed to fetch charade:", error);
+        }
+      }
+
+      document.getElementById("previous-charade").addEventListener("click", () => {
+        if (charades.length === 0) {
+          return;
+        }
+
+        currentIndex = (currentIndex - 1 + charades.length) % charades.length;
+        renderCharade();
+      });
+
+      document.getElementById("next-charade").addEventListener("click", () => {
+        if (charades.length === 0) {
+          return;
+        }
+
+        currentIndex = (currentIndex + 1) % charades.length;
+        renderCharade();
+      });
+
+      document.getElementById("settings-toggle").addEventListener("click", () => {
+        openSettings();
+      });
+
+      document.getElementById("settings-close").addEventListener("click", () => {
+        closeSettings();
+      });
+
+      document.getElementById("settings-cancel").addEventListener("click", () => {
+        closeSettings();
+      });
+
+      document.getElementById("settings-backdrop").addEventListener("click", () => {
+        closeSettings();
+      });
+
+      document.getElementById("settings-form").addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const selectedCategories = Array.from(
+          document.querySelectorAll('input[name="categories"]:checked')
+        ).map((input) => input.value);
+        const selectedDifficulty = document.querySelector('input[name="difficulty"]:checked').value;
+        const questionCount = Number.parseInt(document.getElementById("question-count").value, 10);
+
+        settings = {
+          categories: selectedCategories.length > 0 ? selectedCategories : availableCategories.slice(),
+          difficulties: selectedDifficulty === "all" ? availableDifficulties.slice() : [selectedDifficulty],
+          questionCount: Number.isNaN(questionCount) ? 8 : Math.max(1, Math.min(20, questionCount))
+        };
+
+        console.log("Settings updated:", settings);
+        closeSettings();
+        fetchCharades();
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && !document.getElementById("settings-modal").hidden) {
+          closeSettings();
+        }
+      });
+
+
+      document.getElementById("btn-new").addEventListener("click", () => {
+        fetchCharades();
+      });
+      
+      fetchCharades();
+    </script>
+  </body>
+</html>

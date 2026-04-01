@@ -1,0 +1,2039 @@
+{
+  "questions": [
+  {
+    "title": "To Kill a Mocking Bird",
+    "info": "Book, play and movie by Harper Lee",
+    "category": ["books", "plays", "movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Lion King",
+    "info": "Disney animated movie based on the Hamlet story",
+    "category": ["movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Frozen",
+    "info": "Disney animated movie with sisters Anna and Elsa",
+    "category": ["movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Finding Nemo",
+    "info": "Pixar movie about a clownfish lost in the ocean",
+    "category": ["movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Toy Story",
+    "info": "Pixar movie about toys that come to life",
+    "category": ["movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Harry Potter",
+    "info": "Book and movie series about a young wizard",
+    "category": ["books", "movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Gruffalo",
+    "info": "Popular children's book about a clever mouse",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Cinderella",
+    "info": "Classic fairy tale about a lost glass slipper",
+    "category": ["books", "movies", "plays"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Home Alone",
+    "info": "Christmas comedy about a boy left by himself",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Jurassic Park",
+    "info": "Movie and book about a dinosaur theme park",
+    "category": ["books", "movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Hunger Games",
+    "info": "Book and movie series about a deadly televised contest",
+    "category": ["books", "movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Matilda",
+    "info": "Roald Dahl story about a gifted girl with powers",
+    "category": ["books", "movies", "plays"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Charlie and the Chocolate Factory",
+    "info": "Roald Dahl story set in a magical sweet factory",
+    "category": ["books", "movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Wizard of Oz",
+    "info": "Classic story featuring Dorothy, Toto and the yellow brick road",
+    "category": ["books", "movies", "plays"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Romeo and Juliet",
+    "info": "Shakespeare tragedy about two young lovers",
+    "category": ["books", "plays", "movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Godfather",
+    "info": "Crime movie about the Corleone family",
+    "category": ["books", "movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "info": "Jane Austen novel about Elizabeth Bennet and Mr Darcy",
+    "category": ["books", "movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Moby Dick",
+    "info": "Classic novel about Captain Ahab hunting a white whale",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Les Miserables",
+    "info": "French novel adapted into a famous musical and film",
+    "category": ["books", "plays", "movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Matrix",
+    "info": "Science fiction movie about simulated reality",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Titanic",
+    "info": "Romantic disaster movie set on the doomed ocean liner",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Death Valley",
+    "info": "Famous desert valley in California known for extreme heat",
+    "category": ["places"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Disneyland",
+    "info": "World famous theme park created by Walt Disney",
+    "category": ["places"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Grand Canyon",
+    "info": "Massive canyon in Arizona carved by the Colorado River",
+    "category": ["places"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Cliffs of Moher",
+    "info": "Dramatic sea cliffs on the west coast of Ireland",
+    "category": ["places"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Giant's Causeway",
+    "info": "Famous Northern Ireland coastline with hexagonal basalt columns",
+    "category": ["places"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Buckingham Palace",
+    "info": "Official London residence of the British monarch",
+    "category": ["places"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Eiffel Tower",
+    "info": "Iconic iron tower in Paris",
+    "category": ["places"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Taj Mahal",
+    "info": "White marble mausoleum in Agra, India",
+    "category": ["places"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Mount Everest",
+    "info": "Highest mountain on Earth in the Himalayas",
+    "category": ["places"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Niagara Falls",
+    "info": "Huge waterfalls on the border of the United States and Canada",
+    "category": ["places"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Great Wall of China",
+    "info": "Ancient wall stretching across northern China",
+    "category": ["places"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Colosseum",
+    "info": "Ancient Roman amphitheatre in Rome",
+    "category": ["places"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Machu Picchu",
+    "info": "Ancient Inca citadel in the mountains of Peru",
+    "category": ["places"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Pyramids of Giza",
+    "info": "Ancient pyramids in Egypt near Cairo",
+    "category": ["places"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Statue of Liberty",
+    "info": "Famous statue in New York Harbor",
+    "category": ["places"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Stonehenge",
+    "info": "Prehistoric stone circle in England",
+    "category": ["places"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Sydney Opera House",
+    "info": "Distinctive performing arts building in Sydney",
+    "category": ["places"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Times Square",
+    "info": "Busy entertainment district in New York City",
+    "category": ["places"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Big Ben",
+    "info": "Famous clock tower landmark in London",
+    "category": ["places"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Leaning Tower of Pisa",
+    "info": "Italian bell tower famous for its tilt",
+    "category": ["places"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "info": "Epic fantasy novel by J. R. R. Tolkien",
+    "category": ["books", "movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Hobbit",
+    "info": "Fantasy adventure about Bilbo Baggins",
+    "category": ["books", "movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Alice in Wonderland",
+    "info": "Classic story about a girl falling into a strange world",
+    "category": ["books", "movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Chronicles of Narnia",
+    "info": "Fantasy book series set in the land of Narnia",
+    "category": ["books", "movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Treasure Island",
+    "info": "Adventure novel with pirates and buried gold",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Jungle Book",
+    "info": "Story collection featuring Mowgli raised by wolves",
+    "category": ["books", "movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Anne of Green Gables",
+    "info": "Novel about an imaginative orphan girl in Canada",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Secret Garden",
+    "info": "Children's classic about a hidden garden and new beginnings",
+    "category": ["books", "movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Little Women",
+    "info": "Novel about four sisters growing up during the American Civil War",
+    "category": ["books", "movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Dracula",
+    "info": "Gothic horror novel about Count Dracula",
+    "category": ["books", "movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Frankenstein",
+    "info": "Classic novel about a scientist and the creature he creates",
+    "category": ["books", "movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "info": "Novel following Holden Caulfield in New York City",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Great Gatsby",
+    "info": "Novel about wealth and longing in the Jazz Age",
+    "category": ["books", "movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "War and Peace",
+    "info": "Epic Russian novel by Leo Tolstoy",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Da Vinci Code",
+    "info": "Thriller novel involving clues hidden in famous artworks",
+    "category": ["books", "movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Alchemist",
+    "info": "Novel about a shepherd searching for treasure and purpose",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Adventures of Sherlock Holmes",
+    "info": "Collection of detective stories featuring Sherlock Holmes",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "A Christmas Carol",
+    "info": "Charles Dickens story about Ebenezer Scrooge",
+    "category": ["books", "movies", "plays"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Of Mice and Men",
+    "info": "John Steinbeck novel about friendship and hardship",
+    "category": ["books", "plays", "movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Kite Runner",
+    "info": "Novel about friendship, guilt and redemption in Afghanistan",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Albert Einstein",
+    "info": "Physicist famous for the theory of relativity",
+    "category": ["famous people"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "William Shakespeare",
+    "info": "English playwright who wrote Hamlet and Macbeth",
+    "category": ["famous people"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Michael Jackson",
+    "info": "Pop star known as the King of Pop",
+    "category": ["famous people"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Elvis Presley",
+    "info": "Singer often called the King of Rock and Roll",
+    "category": ["famous people"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Marilyn Monroe",
+    "info": "Hollywood actress and cultural icon of the 1950s",
+    "category": ["famous people"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Mahatma Gandhi",
+    "info": "Indian leader known for nonviolent resistance",
+    "category": ["famous people"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Nelson Mandela",
+    "info": "South African leader and anti-apartheid activist",
+    "category": ["famous people"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Amelia Earhart",
+    "info": "Pioneering aviator who disappeared over the Pacific",
+    "category": ["famous people"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Leonardo da Vinci",
+    "info": "Renaissance artist and inventor who painted the Mona Lisa",
+    "category": ["famous people"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Winston Churchill",
+    "info": "British prime minister during much of the Second World War",
+    "category": ["famous people"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Happy Birthday",
+    "info": "Very well known song sung at birthday celebrations",
+    "category": ["songs"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Jingle Bells",
+    "info": "Classic Christmas song about riding in a sleigh",
+    "category": ["songs"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Let It Be",
+    "info": "Famous Beatles song with a comforting message",
+    "category": ["songs"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "info": "Epic Queen song with several different musical sections",
+    "category": ["songs"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Imagine",
+    "info": "John Lennon song about peace and unity",
+    "category": ["songs"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Sweet Caroline",
+    "info": "Neil Diamond song often sung by crowds at events",
+    "category": ["songs"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "I Will Always Love You",
+    "info": "Song made globally famous by Whitney Houston",
+    "category": ["songs"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Dancing Queen",
+    "info": "Popular ABBA song about dancing and youth",
+    "category": ["songs"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Wonderwall",
+    "info": "Well known Oasis song from the 1990s",
+    "category": ["songs"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Somewhere Over the Rainbow",
+    "info": "Classic song from The Wizard of Oz",
+    "category": ["songs"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Moon Landing",
+    "info": "Historic event when humans first walked on the Moon in 1969",
+    "category": ["historical events"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Fall of the Berlin Wall",
+    "info": "1989 event symbolising the end of Cold War division in Germany",
+    "category": ["historical events"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The French Revolution",
+    "info": "Major uprising in France that began in 1789",
+    "category": ["historical events"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The American Revolution",
+    "info": "War of independence leading to the creation of the United States",
+    "category": ["historical events"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Sinking of the Titanic",
+    "info": "1912 maritime disaster involving the famous ocean liner",
+    "category": ["historical events"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The First Flight at Kitty Hawk",
+    "info": "Wright brothers' pioneering powered flight in 1903",
+    "category": ["historical events"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Signing of the Magna Carta",
+    "info": "1215 agreement limiting the power of the English king",
+    "category": ["historical events"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Great Fire of London",
+    "info": "Devastating fire that swept through London in 1666",
+    "category": ["historical events"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Boston Tea Party",
+    "info": "Colonial protest against British taxation in 1773",
+    "category": ["historical events"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "D-Day",
+    "info": "Allied invasion of Normandy during the Second World War",
+    "category": ["historical events"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Angkor Wat",
+    "info": "Temple complex in Cambodia sourced from places.txt",
+    "category": ["places"],
+    "difficulty": "teen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Ankor_Wat_temple.jpg/1200px-Ankor_Wat_temple.jpg"
+  },
+  {
+    "title": "Great Barrier Reef",
+    "info": "Famous coral reef system in Australia sourced from places.txt",
+    "category": ["places"],
+    "difficulty": "teen",
+    "image": "https://cdn.britannica.com/64/155864-050-34FBD7A2/view-Great-Barrier-Reef-Australia-coast.jpg"
+  },
+  {
+    "title": "Iguazu Falls",
+    "info": "Large waterfall system between Argentina and Brazil sourced from places.txt",
+    "category": ["places"],
+    "difficulty": "teen",
+    "image": "https://www.tripsavvy.com/thmb/xJ1-kvBsuglBvNpiAhvcgiKZUuQ=/1885x1414/smart/filters:no_upscale()/iguazu-falls--iguazu-national-park--brazil-argentina-paraguay-border--1171077586-0c0af92a39e24d179bfa236d3248b2db.jpg"
+  },
+  {
+    "title": "Petra",
+    "info": "Ancient rock-cut city in Jordan sourced from places.txt",
+    "category": ["places"],
+    "difficulty": "teen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Treasury_petra_crop.jpeg/1200px-Treasury_petra_crop.jpeg"
+  },
+  {
+    "title": "Sagrada Familia",
+    "info": "Famous basilica in Barcelona sourced from places.txt",
+    "category": ["places"],
+    "difficulty": "teen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg"
+  },
+  {
+    "title": "Acropolis of Athens",
+    "info": "Historic hilltop citadel in Greece sourced from places.txt",
+    "category": ["places"],
+    "difficulty": "adult",
+    "image": "https://cdn.britannica.com/54/150954-050-F8D14782/Night-view-Parthenon-Athens.jpg"
+  },
+  {
+    "title": "Yellowstone National Park",
+    "info": "Famous United States national park with geysers sourced from places.txt",
+    "category": ["places"],
+    "difficulty": "kid",
+    "image": "https://www.planetware.com/photos-large/USWY/usa-wyoming-yellowstone-grand-prismatic-spring.jpg"
+  },
+  {
+    "title": "Golden Gate Bridge",
+    "info": "Iconic suspension bridge in San Francisco sourced from places.txt",
+    "category": ["places"],
+    "difficulty": "kid",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "info": "Drama film about hope and friendship in prison sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "The Dark Knight",
+    "info": "Batman film featuring the Joker sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY98_CR1,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Inception",
+    "info": "Science fiction thriller about shared dreams sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Fight Club",
+    "info": "Cult film about an underground fighting club sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Schindler's List",
+    "info": "Historical drama set during the Second World War sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Forrest Gump",
+    "info": "Drama following an extraordinary life through American history sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY98_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Goodfellas",
+    "info": "Crime film about life inside the mob sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Star Wars",
+    "info": "Space adventure film introducing Luke Skywalker and Darth Vader sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "kid",
+    "image": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "It's a Wonderful Life",
+    "info": "Classic film about seeing how much one life matters sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BZjc4NDZhZWMtNGEzYS00ZWU2LThlM2ItNTA0YzQ0OTExMTE2XkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_UY98_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Charlie Chaplin",
+    "info": "Silent film star and comedian sourced from famous-people.txt",
+    "category": ["famous people"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Marie Curie",
+    "info": "Scientist known for pioneering work on radioactivity sourced from famous-people.txt",
+    "category": ["famous people"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Nikola Tesla",
+    "info": "Inventor and electrical engineer sourced from famous-people.txt",
+    "category": ["famous people"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Freddie Mercury",
+    "info": "Lead singer of Queen sourced from famous-people.txt",
+    "category": ["famous people"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Steven Spielberg",
+    "info": "Film director behind many blockbuster movies sourced from famous-people.txt",
+    "category": ["famous people"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Bill Gates",
+    "info": "Microsoft co-founder and philanthropist sourced from famous-people.txt",
+    "category": ["famous people"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "George Orwell",
+    "info": "Author of Animal Farm and Nineteen Eighty-Four sourced from famous-people.txt",
+    "category": ["famous people"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Bruce Lee",
+    "info": "Martial artist and film star sourced from famous-people.txt",
+    "category": ["famous people"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "King Lear",
+    "info": "Shakespeare tragedy sourced from plays.txt",
+    "category": ["plays"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Hamlet",
+    "info": "Shakespeare play about the Prince of Denmark sourced from plays.txt",
+    "category": ["plays"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Macbeth",
+    "info": "Shakespeare tragedy about ambition and murder sourced from plays.txt",
+    "category": ["plays"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Waiting for Godot",
+    "info": "Absurdist play by Samuel Beckett sourced from plays.txt",
+    "category": ["plays"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Importance of Being Earnest",
+    "info": "Comedy by Oscar Wilde sourced from plays.txt",
+    "category": ["plays"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "A Streetcar Named Desire",
+    "info": "Tennessee Williams play sourced from plays.txt",
+    "category": ["plays"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "A Midsummer Night's Dream",
+    "info": "Shakespeare comedy with fairies and mistaken identities sourced from plays.txt",
+    "category": ["plays"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Crucible",
+    "info": "Arthur Miller play about the Salem witch trials sourced from plays.txt",
+    "category": ["plays"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "His Dark Materials",
+    "info": "Fantasy book series by Philip Pullman sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "info": "Comic science fiction novel by Douglas Adams sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Winnie the Pooh",
+    "info": "Children's classic by A. A. Milne sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Nineteen Eighty-Four",
+    "info": "Dystopian novel by George Orwell sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Jane Eyre",
+    "info": "Classic novel by Charlotte Bronte sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Great Expectations",
+    "info": "Charles Dickens novel about Pip sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Dune",
+    "info": "Science fiction novel by Frank Herbert sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Animal Farm",
+    "info": "Political allegory by George Orwell sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Don Quixote",
+    "info": "Classic novel by Miguel de Cervantes sourced from top-500-novels-metadata_2025-01-11.json",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Anna Karenina",
+    "info": "Novel by Leo Tolstoy sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Godfather: Part II",
+    "info": "Crime film continuing the Corleone family story sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY98_CR1,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "12 Angry Men",
+    "info": "Courtroom drama about a jury debating a verdict sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "info": "Fantasy epic concluding the Lord of the Rings trilogy sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Pulp Fiction",
+    "info": "Crime film with intertwined stories sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY98_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "info": "Fantasy adventure beginning the Lord of the Rings trilogy sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Two Towers",
+    "info": "Middle chapter of the Lord of the Rings film trilogy sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "info": "Star Wars sequel featuring Luke, Leia and Darth Vader sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "One Flew Over the Cuckoo's Nest",
+    "info": "Drama set in a mental institution sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Hamilton",
+    "info": "Filmed stage musical about Alexander Hamilton sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BNjViNWRjYWEtZTI0NC00N2E3LTk0NGQtMjY4NTM3OGNkZjY0XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Interstellar",
+    "info": "Science fiction film about space travel through a wormhole sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Saving Private Ryan",
+    "info": "War film about a mission after the Normandy landings sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "The Green Mile",
+    "info": "Prison drama with a supernatural element sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Se7en",
+    "info": "Thriller about detectives hunting a serial killer sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "info": "Thriller about an FBI trainee and a brilliant imprisoned killer sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Joker",
+    "info": "Drama about the rise of Batman's famous villain sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Il buono, il brutto, il cattivo",
+    "info": "Western film about three gunmen racing to find buried gold sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Gisaengchung",
+    "info": "Korean thriller about class conflict between two families sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Soorarai Pottru",
+    "info": "Drama about an ambitious man trying to make air travel affordable sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BOTc2ZTlmYmItMDBhYS00YmMzLWI4ZjAtMTI5YTBjOTFiMGEwXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY98_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Cidade de Deus",
+    "info": "Brazilian crime drama set in the slums of Rio sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BOTMwYjc5ZmItYTFjZC00ZGQ3LTlkNTMtMjZiNTZlMWQzNzI5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Sen to Chihiro no kamikakushi",
+    "info": "Animated fantasy about a girl trapped in a spirit world sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "La vita è bella",
+    "info": "Italian film about a father protecting his son during wartime sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Seppuku",
+    "info": "Japanese samurai drama about honour and revenge sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BYjBmYTQ1NjItZWU5MS00YjI0LTg2OTYtYmFkN2JkMmNiNWVkXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_UY98_CR2,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Shichinin no samurai",
+    "info": "Japanese classic about seven samurai defending a village sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BOWE4ZDdhNmMtNzE5ZC00NzExLTlhNGMtY2ZhYjYzODEzODA1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY98_CR1,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Whiplash",
+    "info": "Drama about an intense student-teacher relationship in music school sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "The Intouchables",
+    "info": "French comedy-drama about an unlikely friendship between a caregiver and his employer sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "The Prestige",
+    "info": "Thriller about two rival magicians sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "The Departed",
+    "info": "Crime thriller about an undercover cop and a police mole sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "The Pianist",
+    "info": "War drama about a musician surviving in wartime Warsaw sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY98_CR2,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Gladiator",
+    "info": "Historical epic about a Roman general seeking revenge sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "American History X",
+    "info": "Drama about a former extremist trying to change his life sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BZjA0MTM4MTQtNzY5MC00NzY3LWI1ZTgtYzcxMjkyMzU4MDZiXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "The Usual Suspects",
+    "info": "Crime mystery built around a famous twist sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Léon",
+    "info": "Crime drama about a hitman and a young girl who becomes his protégé sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BODllNWE0MmEtYjUwZi00ZjY3LThmNmQtZjZlMjI2YTZjYmQ0XkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Terminator 2: Judgment Day",
+    "info": "Science fiction action film about protecting the future saviour of humanity sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Nuovo Cinema Paradiso",
+    "info": "Italian drama about childhood memories of a village cinema sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BM2FhYjEyYmYtMDI1Yy00YTdlLWI2NWQtYmEzNzAxOGY1NjY2XkEyXkFqcGdeQXVyNTA3NTIyNDg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Hotaru no haka",
+    "info": "Animated war drama about two siblings trying to survive in Japan sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Back to the Future",
+    "info": "Time travel adventure about Marty McFly and Doc Brown sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "kid",
+    "image": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Once Upon a Time in the West",
+    "info": "Western film about a widow, a railroad and a mysterious harmonica player sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BZGI5MjBmYzYtMzJhZi00NGI1LTk3MzItYjBjMzcxM2U3MDdiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Psycho",
+    "info": "Classic thriller set around a remote motel sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWUxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Casablanca",
+    "info": "Classic romance and war drama set in Morocco sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Modern Times",
+    "info": "Charlie Chaplin comedy about life in an industrial world sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BYjJiZjMzYzktNjU0NS00OTkxLWEwYzItYzdhYWJjN2QzMTRlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "City Lights",
+    "info": "Charlie Chaplin film about helping a blind flower girl sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BY2I4MmM1N2EtM2YzOS00OWUzLTkzYzctNDc5NDg2N2IyODJmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Capharnaüm",
+    "info": "Drama about a neglected child seeking justice sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BMmExNzU2ZWMtYzUwYi00YmM2LTkxZTQtNmVhNjY0NTMyMWI2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Ayla: The Daughter of War",
+    "info": "War drama about a soldier caring for a young girl during the Korean War sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BNWJhMDlmZGUtYzcxNS00NDRiLWIwNjktNDY1Mjg3ZjBkYzY0XkEyXkFqcGdeQXVyMTU4MjUwMjI@._V1_UY98_CR2,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Vikram Vedha",
+    "info": "Indian crime thriller about a police officer and a gangster sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult",
+    "image": "https://m.media-amazon.com/images/M/MV5BY2FiMTFmMzMtZDI2ZC00NDQyLWExYTUtOWNmZWM1ZDg5YjVjXkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Kimi no na wa.",
+    "info": "Animated film about two strangers linked across distance and time sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Dangal",
+    "info": "Sports drama about a father training his daughters to become wrestlers sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_UY98_CR1,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "info": "Animated superhero film starring Miles Morales sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "kid",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "info": "Marvel film about the Avengers trying to reverse Thanos's actions sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "kid",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "info": "Marvel crossover film featuring the Avengers against Thanos sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "kid",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "Coco",
+    "info": "Animated Pixar film about music and the Land of the Dead sourced from ideas-top-1000-movies.txt",
+    "category": ["movies"],
+    "difficulty": "kid",
+    "image": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY98_CR1,0,67,98_AL_.jpg"
+  },
+  {
+    "title": "My Left Foot",
+    "info": "Irish film directed by Jim Sheridan in 1989 sourced from irish-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The General",
+    "info": "Irish film directed by John Boorman in 1998 sourced from irish-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "In the Name of the Father",
+    "info": "Irish film directed by Jim Sheridan in 1993 sourced from irish-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Sing Street",
+    "info": "Irish film directed by John Carney in 2016 sourced from irish-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Song of the Sea",
+    "info": "Irish animated film directed by Tomm Moore in 2014 sourced from irish-movies.txt",
+    "category": ["movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Wind That Shakes the Barley",
+    "info": "Irish film directed by Ken Loach in 2006 sourced from irish-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Butcher Boy",
+    "info": "Irish film directed by Neil Jordan in 1997 sourced from irish-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Hunger",
+    "info": "Irish film directed by Steve McQueen in 2008 sourced from irish-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Knuckle",
+    "info": "Irish documentary directed by Ian Palmer in 2011 sourced from irish-movies.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Good Vibrations",
+    "info": "Irish film directed by Lisa Barros D'Sa and Glenn Leyburn in 2012 sourced from irish-movies.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Harry Potter and the Goblet of Fire",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Lion, the Witch and the Wardrobe",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Catch-22",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Wuthering Heights",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Birdsong",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Rebecca",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Wind in the Willows",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Captain Corelli's Mandolin",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Gone with the Wind",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Harry Potter And The Philosopher's Stone",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Harry Potter And The Chamber Of Secrets",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Harry Potter And The Prisoner Of Azkaban",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Tess Of The D'Urbervilles",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Middlemarch",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "A Prayer For Owen Meany",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Grapes Of Wrath",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Alice's Adventures In Wonderland",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Story Of Tracy Beaker",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "One Hundred Years Of Solitude",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Pillars Of The Earth",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "David Copperfield",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "A Town Like Alice",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Persuasion",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Emma",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Watership Down",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Count Of Monte Cristo",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Brideshead Revisited",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Far From The Madding Crowd",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Goodnight Mister Tom",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Shell Seekers",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Stand",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "A Suitable Boy",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The BFG",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Swallows And Amazons",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Black Beauty",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Artemis Fowl",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Crime And Punishment",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Noughts And Crosses",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Memoirs Of A Geisha",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "A Tale Of Two Cities",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Thorn Birds",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Mort",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Magic Faraway Tree",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Magus",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Good Omens",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Guards! Guards!",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Lord Of The Flies",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Perfume",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Ragged Trousered Philanthropists",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Night Watch",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Bridget Jones's Diary",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Secret History",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Woman In White",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Ulysses",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Bleak House",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Double Act",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Twits",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "I Capture The Castle",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Holes",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Gormenghast",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The God Of Small Things",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Vicky Angel",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Brave New World",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Cold Comfort Farm",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Magician",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "On The Road",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Clan Of The Cave Bear",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Colour Of Magic",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Katherine",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Kane And Abel",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Love In The Time Of Cholera",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Girls In Love",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "The Princess Diaries",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Midnight's Children",
+    "info": "Book sourced from ideas.txt",
+    "category": ["books"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Good, the Bad and the Ugly",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Seven Samurai",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Star Wars: Episode IV - A New Hope",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "City of God",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Life Is Beautiful",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Léon: The Professional",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Spirited Away",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Raiders of the Lost Ark",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Rear Window",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Memento",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Apocalypse Now",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Alien",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Sunset Boulevard",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Great Dictator",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Cinema Paradiso",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Lives of Others",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Grave of the Fireflies",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Paths of Glory",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Django Unchained",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "The Shining",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "WALL·E",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "American Beauty",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Princess Mononoke",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Aliens",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Oldboy",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Once Upon a Time in America",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Witness for the Prosecution",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Das Boot",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Citizen Kane",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "North by Northwest",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Vertigo",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Star Wars: Episode VI - Return of the Jedi",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Reservoir Dogs",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Braveheart",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "M",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Requiem for a Dream",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Amélie",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Like Stars on Earth",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Taxi Driver",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Lawrence of Arabia",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Double Indemnity",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Amadeus",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Toy Story 3",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Logan",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Full Metal Jacket",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Sting",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Singin' in the Rain",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "Bicycle Thieves",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "The Kid",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "kid"
+  },
+  {
+    "title": "Inglourious Basterds",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Snatch",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  },
+  {
+    "title": "3 Idiots",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "adult"
+  },
+  {
+    "title": "Monty Python and the Holy Grail",
+    "info": "Movie sourced from ideas.txt",
+    "category": ["movies"],
+    "difficulty": "teen"
+  }
+]
+}

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Charadium logo</title>
+  <desc id="desc">A colourful charades logo with two expressive hands framing a play button and the word Charadium.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff2b3"/>
+      <stop offset="45%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#ff7f50"/>
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="10%" x2="90%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#175676"/>
+      <stop offset="100%" stop-color="#0a2342"/>
+    </linearGradient>
+    <linearGradient id="leftHand" x1="0%" x2="100%" y1="20%" y2="80%">
+      <stop offset="0%" stop-color="#3ec1d3"/>
+      <stop offset="100%" stop-color="#1f7a8c"/>
+    </linearGradient>
+    <linearGradient id="rightHand" x1="0%" x2="100%" y1="20%" y2="80%">
+      <stop offset="0%" stop-color="#ef476f"/>
+      <stop offset="100%" stop-color="#d62839"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0a2342" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bgGradient)"/>
+  <circle cx="112" cy="118" r="46" fill="#ffffff" fill-opacity="0.2"/>
+  <circle cx="406" cy="132" r="26" fill="#ffffff" fill-opacity="0.18"/>
+  <circle cx="420" cy="382" r="34" fill="#ffffff" fill-opacity="0.16"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="96" y="82" width="320" height="248" rx="42" fill="url(#cardGradient)"/>
+    <rect x="118" y="104" width="276" height="204" rx="28" fill="#f8fbff"/>
+  </g>
+
+  <g fill="none" stroke="#d8e7f5" stroke-linecap="round">
+    <path d="M143 150h88" stroke-width="12"/>
+    <path d="M143 182h58" stroke-width="12"/>
+    <path d="M143 214h74" stroke-width="12"/>
+  </g>
+
+  <circle cx="326" cy="206" r="62" fill="#ffd166"/>
+  <path d="M305 173v66l55-33z" fill="#0a2342"/>
+
+  <g transform="translate(52 200)">
+    <path
+      d="M77 134c-9-7-16-16-20-28l-14-41c-5-15 6-31 22-31 9 0 17 5 21 13l12 23V18c0-10 8-18 18-18s18 8 18 18v39h8V9c0-10 8-18 18-18s18 8 18 18v48h8V18c0-10 8-18 18-18s18 8 18 18v60l5-7c8-11 24-13 35-5 12 9 14 27 4 39l-40 52c-7 9-18 14-29 14H129c-19 0-37-7-52-20Z"
+      fill="url(#leftHand)"
+    />
+    <path
+      d="M133 180c15 8 35 13 53 13h48"
+      stroke="#d9f7ff"
+      stroke-linecap="round"
+      stroke-width="10"
+    />
+  </g>
+
+  <g transform="translate(240 210)">
+    <path
+      d="M166 134c9-7 16-16 20-28l14-41c5-15-6-31-22-31-9 0-17 5-21 13l-12 23V18c0-10-8-18-18-18s-18 8-18 18v39h-8V9c0-10-8-18-18-18S65-1 65 9v48h-8V18c0-10-8-18-18-18S21 8 21 18v60l-5-7C8 60-8 58-19 66c-12 9-14 27-4 39l40 52c7 9 18 14 29 14h58c19 0 37-7 52-20Z"
+      fill="url(#rightHand)"
+    />
+    <path
+      d="M105 180c-15 8-35 13-53 13H4"
+      stroke="#ffd9e2"
+      stroke-linecap="round"
+      stroke-width="10"
+    />
+  </g>
+
+  <g font-family="Trebuchet MS, Verdana, sans-serif" text-anchor="middle">
+    <text x="256" y="398" fill="#0a2342" font-size="62" font-weight="700" letter-spacing="2">CHARADIUM</text>
+    <text x="256" y="436" fill="#175676" font-size="24" font-weight="700" letter-spacing="5">ACT IT OUT</text>
+  </g>
+</svg>
